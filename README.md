@@ -8,5 +8,5 @@ For the convenience of users, certain nomenclature patterns for the genome and t
 - The depth of coverage data is read from the files starting with "depth" and separated by "_" like "depth_DL4184Aara.txt". The last part, here, is indicating any experimentally relevant details without any gap followed by ".txt".
 - Names of the depth of coverage files from stationary phase culture is similar to that of logarithmic-phase data, plus, starting with "stn", like “stn_depth_DL4184Aara.txt".
 
-# IMPORTANT: if you are missing the depth of coverage files from stationary phase culture, comment out from line 75 to line 120 in the "MFA_V2.1.R" R script.
+### IMPORTANT: if you are missing the depth of coverage files from stationary phase culture, comment out from line 75 to line 120 in the "MFA_V2.1.R" R script.
 
