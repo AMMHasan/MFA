@@ -1,10 +1,8 @@
 The data is available on:
 
-
 Data type: 50 bp paired-end reads from Illumina sequencing platform.
 
-
-The contributors of the datasets are:
+Contributors of the datasets:
 
 1. Dr. A M Mahedi Hasan, Post-doctoral Research Associate, The Leach lab, Institute of Cell Biology, University of Edinburgh.
 
