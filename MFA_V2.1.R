@@ -131,7 +131,7 @@ for(j in seq(from=1,to=floor(length(data2[,1])/1000))){
 for(i in 2:dim(data2)[2]){
   for(j in seq(from=1,to=floor(length(data2[,i])/1000)))
   {
-    FW_data[j,i] <- mean(data2[((j*1000)-(1000-1)):(j*1000),i])
+    FW_data[j,i] <- mean(data2[((j*1000)-(1000-1)):(j*1000),i], na.rm = T)
   }
 }
 print("1Kb Fixed_window data")
